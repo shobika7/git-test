@@ -1,0 +1,24 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "\"My first file\"",
+  "main": "index.html",
+  "scripts": {
+	"start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobika7/git-test.git"
+  },
+  "author": "shobika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shobika7/git-test/issues"
+  },
+  "homepage": "https://github.com/shobika7/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
